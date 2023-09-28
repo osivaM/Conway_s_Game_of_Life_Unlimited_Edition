@@ -11,6 +11,7 @@ public class LifeDebug {
                 } else {
                     stringBuilder.append('.');
                 }
+                stringBuilder.append(' ');
             }
             stringBuilder.append('\n');
         }
@@ -26,6 +27,7 @@ public class LifeDebug {
                 } else {
                     System.out.print(".");
                 }
+                System.out.print(" ");
             }
             System.out.println();
         }
